@@ -9,6 +9,8 @@ You can check your Knowledge about HTML, CSS, JAVASCRIPT and React.There are Ver
 # QUIZ API LINK:
 Get all quiz topics: https://openapi.programming-hero.com/api/quiz
 
+
+
 Get topic details by topic id: https://openapi.programming-hero.com/api/quiz/${id}
 
 
