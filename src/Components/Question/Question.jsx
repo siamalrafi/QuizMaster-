@@ -11,7 +11,6 @@ const Question = ({ quest, index }) => {
     const orginalSrting = question;
     const newSting = orginalSrting.replace(/(<([^>]+)>)/ig, '');
 
-
     const handleCarrect = () => {
         const handleCarrect = toast.success(`Correct Answer is  ${correctAnswer}`)
     }
@@ -21,7 +20,7 @@ const Question = ({ quest, index }) => {
         <div className='mt-4 p-2 rounded bg-sky-500/50 '>
             <section>
 
-                <h1 className='font-bold text-2xl pb-6'>{index + 1}. {newSting}?   <span className='flex justify-end'>
+                <h1 className='font-bold text-2xl pb-6'>Quiz {index + 1}. {newSting}?   <span className='flex justify-end'>
                     <button title='Correct Answer' onClick={handleCarrect}><FontAwesomeIcon icon={faEye}></FontAwesomeIcon></button>
                 </span></h1>
 
