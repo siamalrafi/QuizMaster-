@@ -1,4 +1,4 @@
-# This is the QuizMaster React Application
+# QuizMaster React Application
 github link : https://github.com/programming-hero-web-course2/b6-quiz-crackerz-Rahathasandipto
 
 Live Website Link : 
