@@ -45,10 +45,6 @@ function App() {
           path: '*',
           element: <ErrorPage />
         },
-
-
-
-        
       ]
     }
   ]);
