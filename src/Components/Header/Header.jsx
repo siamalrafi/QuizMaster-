@@ -11,16 +11,14 @@ const Header = () => {
                     <div className="flex items-center justify-between">
                         <Link to="/" className=" text-2xl font-bold text-gray-800 transition-colors duration-300 transform dark:text-white lg:text-3xl hover:text-gray-700 dark:hover:text-green-600" >
                             <FontAwesomeIcon icon={faQuestion} />
-                            <FontAwesomeIcon icon={faQuestion} />
-                            <FontAwesomeIcon icon={faQuestion} />
                             <span to="/">QuizMaster </span>
                         </Link>
                     </div>
                     <div className=" inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-white dark:bg-gray-800 md:mt-0 md:p-0 md:top-0 md:relative md:bg-transparent md:w-auto md:opacity-100 md:translate-x-0 md:flex md:items-center">
-                        <Link className="mr-5 my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0" to="/">Home</Link>
-                        {/* <Link className="mr-5 my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0" to="/quiz">Quiz</Link> */}
-                        <Link className="mr-5 my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0" to="stastic">Stastic</Link>
-                        <Link className="mr-5 my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0" to="blog">Blog</Link>
+                        <Link className="mr-5 my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0 font-bold" to="/">Home</Link>
+                        {/* <Link className="mr-5 my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0 font-bold" to="/quiz">Quiz</Link> */}
+                        <Link className="mr-5 my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0 font-bold" to="stastic">Stastic</Link>
+                        <Link className="mr-5 my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0 font-bold" to="blog">Blog</Link>
                     </div>
                 </div >
             </nav >
