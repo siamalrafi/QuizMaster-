@@ -5,7 +5,6 @@ import { BarChart, Bar, XAxis, YAxis, Tooltip, Legend, CartesianGrid } from 'rec
 
 const Stastic = () => {
     const data = useLoaderData().data;
-    console.log(data);
     return (
         <div className='w-full mx-auto  justify-items-center'>
             <div className='mt-b bg-green-600 p-5 mb-5 flex justify-center font-bold text-2xl'>

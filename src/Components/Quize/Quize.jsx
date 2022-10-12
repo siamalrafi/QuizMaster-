@@ -14,7 +14,6 @@ const Quize = () => {
                         cart={cart}
                     />)
                 }
-
             </div>
         </div>
     );
