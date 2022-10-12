@@ -1,15 +1,11 @@
 import { createBrowserRouter, Route, RouterProvider } from 'react-router-dom';
 import './App.css';
 import Main from './Layout/Main';
-import Quiz from './Components/Home/Home';
 import Blog from './Components/Blog/Blog';
 import Stastic from './Components/Stastic/Stastic';
 import ErrorPage from './Components/ErrorPage/ErrorPage';
 import DisplayQuiz from './Components/DisplayQuiz/DisplayQuiz';
-import { logDOM } from '@testing-library/react';
-import { faRetweet } from '@fortawesome/free-solid-svg-icons';
 import Home from './Components/Home/Home';
-import Quize from './Components/Quize/Quize';
 
 
 function App() {
@@ -30,7 +26,6 @@ function App() {
         {
           path: '/SingleCart/:SingleCartId',
           loader: async ({ params }) => {
-            // console.log(params.SingleCartId);
             return fetch(`https://openapi.programming-hero.com/api/quiz/${params.SingleCartId}`);
           },
           element: < DisplayQuiz />
