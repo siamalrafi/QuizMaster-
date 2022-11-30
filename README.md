@@ -1,5 +1,4 @@
-# QuizMaster React Application
-github link : https://github.com/programming-hero-web-course2/b6-quiz-crackerz-Rahathasandipto
+# QuizMaster React Application ---
 
 Live Website Link : https://idyllic-madeleine-af9e0e.netlify.app/
 
